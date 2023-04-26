@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Website</title>
+	<title>Project Page</title>
 	<style>
 		body {
 			font-family: Arial, sans-serif;
@@ -46,8 +46,8 @@
 			margin: 10px;
 			padding: 20px;
 			text-align: center;
-			max-width: 400px;
-			min-width: 250px;
+			max-width: 800px;
+			min-width: 800px;
 		}
 		article img {
 			max-width: 100%;
@@ -57,33 +57,99 @@
 			text-align: center;
 			margin: 20px 0;
 		}
+    aside {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			padding: 20px;
+		}
+		aside img{
+			align-items:  center;
+		}
 	</style>
 </head>
 <body>
 	<header>
-		<h1>My Website</h1>
+		<h1>Team WATA</h1>
 	</header>
 	<nav>
-		<a href="#">Home</a>
-		<a href="#">About</a>
-		<a href="#">Contact</a>
+		<a href="https://tgnelson19.github.io/index.html">Home</a>
+		<a href="https://tgnelson19.github.io/projectPage.html">Projects</a>
+		<a href="https://tgnelson19.github.io/WasilPage.html">Wasil</a>
+		<a href="https://tgnelson19.github.io/alanspage.html">Alan</a>
+		<a href="https://tgnelson19.github.io/TylersPage.html">Tyler</a>
+    <a href="#">Alaeldin</a>
 	</nav>
-	<main>
-		<article>
-			<h2>Image 1</h2>
-			<img src="image1.jpg" alt="Image 1">
-			<p>Description of image 1</p>
+  <aside>
+    <article>
+			<h2>Lab 1 - Temperature Sensor</h2>
+			<img src="images/ProjectImages/tempSense.png" alt="Image 2">
+			<p>For the first lab of senior design, we developed a temperature sensor device. 
+        It has onboard temperature sensing capabilities, as well as the ability to send 
+        the information to a web server that can be accessed remotely to view 
+        temperature history and control the device. 
+      </p>
+      <img src="images/ProjectImages/dataTemp.png" alt="Image 2">
+      <p>The user is then able to also set a cell phone number, temperature limits, 
+        and specific messages inside of the user interface to be sent to the phone 
+        upon those limits being reached. Overall the project helped us improve both 
+        our hardware and software capabilities.
+      </p>
 		</article>
-		<article>
-			<h2>Image 2</h2>
-			<img src="image2.jpg" alt="Image 2">
-			<p>Description of image 2</p>
+  </aside>
+  <aside>
+    <article>
+			<h2>Lab 2 - Infrared Receiver</h2>
+			<img src="images/ProjectImages/Circuit.png" alt="Image 2">
+			<p>The second lab of our senior design course involved us developing an 
+        infrared receiver to be used in tandem with a transmitter such that when 
+        the receiver no longer detects the transmitter, a text message is sent to
+         a cell phone stating that a critical safety error has occurred. 
+      </p>
+      <img src="images/ProjectImages/cirWork.png" alt="Image 2">
+      <p>This lab primarily involved us developing the buffering, filtering, 
+        and amplifying of the detected signal. We did this in order to filter 
+        out any potential noise, specifically the 120 Hz lamp noise generated
+         by modern electronics. 
+      </p>
 		</article>
-		<article>
-			<h2>Image 3</h2>
-			<img src="image3.jpg" alt="Image 3">
-			<p>Description of image 3</p>
+  </aside>
+  <aside>
+    <article>
+			<h2>Lab 3 - Website</h2>
+			<p>Our last lab for our senior design course is this website,
+         which we had to develop and host for the public to see. Our main skills
+          honed here are being able to go through tutorials and learn how to do 
+          new things, as all of our team members are exclusively electrical engineers.  
+      </p>
 		</article>
-	</main>
+  </aside>
+  <aside>
+    <article>
+			<h2>Final Project - Smarter Fridge Upgrade Module</h2>
+			<img src="images/ProjectImages/badFood.png" alt="Image 2">
+			<p>Over the course of senior design we had to come up with an idea for 
+        what we would like to do for our capstone project. We decided that food 
+        waste is much to prevalent in our society, and that there should be an 
+        affordable way to easily keep track of all your food items. 
+      </p>
+      <img src="images/ProjectImages/fridge.png" alt="Image 2">
+      <p>Currently it is much too expensive for people to update their perfectly 
+        working appliances to fancy new smart fridges, so we are designing an
+         upgrade module that can turn any old fridge into a smarter fridge!
+          It will allow users to keep track of the inventory of their fridge, 
+          as well as the expiration dates of the items. The user then would 
+          be able to access this information from either a front panel or 
+          remotely from an internet connected device to always be able to 
+          know what exactly is in their fridge, and help stop food waste 
+          in it’s tracks!
+      </p>
+		</article>
+  </aside>
+  <aside>
+		<div class="commentbox"></div>
+		<script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+		<script>commentBox('5727772454420480-proj')</script>
+	</aside>
 </body>
 </html>
