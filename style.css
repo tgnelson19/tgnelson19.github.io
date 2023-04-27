@@ -28,3 +28,54 @@
  .iowa-logo-hawkeye-button-r-24600506-b-693468-f-9173-c-3-b-554023-cfe-k-94-rf-736-2 {border-radius: 100px; width: 184px; height: 179px; position: absolute; left: 1545px;top: 2194px; transform-origin: 0 0; transform: rotate(0deg) scale(1, 1);}
  .lab {color: #ffffff; text-align: left; font: 400 24px 'Jost', sans-serif; text-decoration: underline; position: absolute; left: 226px;top: 2239px;}
  .welcome {color: #ffffff; text-align: center; font: 400 80px 'Joti One', sans-serif; position: absolute; left: 318px;top: 1243px; width: 380px; height: 30px;}
+ nav {
+    background-color: #695cff;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #ffffff;
+    background-color: #1d0062;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+article {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #999;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    min-width: 300px;
+}
+article img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+aside img{
+    align-items:  center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
